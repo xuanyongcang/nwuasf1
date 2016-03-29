@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <array name="map_point_icons">
+        <item>@drawable/map_others</item>
+        <item>@drawable/map_building</item>
+        <item>@drawable/map_bank</item>
+        <item>@drawable/map_dining</item>
+        <item>@drawable/map_supermarket</item>
+        <item>@drawable/map_playground</item>
+        <item>@drawable/map_dormitory</item>
+        <item>@drawable/map_shower</item>
+    </array>
+    
+    <array name="map_point_type">
+        <item></item>
+        <item>学院</item>
+        <item>银行</item>
+        <item>餐饮</item>
+        <item>超市</item>
+        <item>户外</item>
+        <item>宿舍</item>
+        <item>浴室&amp;水房</item>       
+    </array>
+</resources>

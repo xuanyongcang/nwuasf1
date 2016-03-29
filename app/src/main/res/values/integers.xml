@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_title_len">10</integer>
+    <integer name="zoom">17</integer>
+    <item name="thumb_width" type="integer">120</item>
+    <item name="thumb_height" type="integer">90</item>
+</resources>

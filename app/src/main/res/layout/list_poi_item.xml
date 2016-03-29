@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dip"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:id="@+id/poi_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="6dp"
+        android:contentDescription="@string/campus_map"
+        android:src="@drawable/map_building" />
+
+    <TextView
+        android:id="@+id/poi_item_title"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/poi_item_image"
+        android:ellipsize="marquee"
+        android:text="@string/campus_map"
+        android:textColor="@color/dark" />
+
+</RelativeLayout>

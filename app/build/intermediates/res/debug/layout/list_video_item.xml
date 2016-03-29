@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/item"
+    android:drawingCacheQuality="high"
+    android:minHeight="70.0dip"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/image_thumb"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10.0dip"
+        android:background="@drawable/rc_item_bg"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_video_cover" />
+
+    <TextView
+        android:id="@+id/text_video_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_thumb"
+        android:layout_toRightOf="@+id/image_thumb"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="@string/about"
+        android:textColor="@color/dark"
+        android:textSize="18.0sp" />
+
+    <TextView
+        android:id="@+id/text_video_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_video_title"
+        android:layout_toRightOf="@id/image_thumb"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="@color/darkRed"
+        android:textSize="13.0sp" />
+
+</RelativeLayout><!-- From: file:/D:/桌面备份/nwuasf/app/src/main/res/layout/list_video_item.xml -->

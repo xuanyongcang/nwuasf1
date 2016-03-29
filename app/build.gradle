@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.cmdesign.hellonwsuaf"
+        minSdkVersion 15
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile files('D:/HelloUJS-master2/.idea/libraries/android-async-http-1.4.3.jar')
+    compile files('src/main/li/cpdetector_1.0.5.jar')
+    compile files('src/main/li/httpclient-4.5.1.jar')
+    compile files('src/main/li/jsoup-1.8.3.jar')
+    compile files('src/main/li/baidumapapi_base_v3_6_1.jar')
+    compile files('src/main/li/baidumapapi_map_v3_6_1.jar')
+    compile files('src/main/li/baidumapapi_search_v3_6_1.jar')
+    compile files('src/main/li/baidumapapi_util_v3_6_1.jar')
+    compile files('src/main/li/locSDK_6.13.jar')
+    compile files('src/main/li/android-async-http-1.4.4.jar')
+}

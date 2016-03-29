@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\locSDK_6.13.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\locSDK_6.13-245e9bea54da130a76fd950e18d41e0b62581d4b.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4-15b2a62bc05f86bf18ebdc2738d617b298492046.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\baidumapapi_base_v3_6_1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="683a7fe2d903826fc8ff46832b0be142d4b6576d">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\baidumapapi_base_v3_6_1-891e4ed15062bce031106c4af5954a536854ee7f.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\classes-6379ea218d2ff69a3b362ea68daad735c530b28b.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\httpclient-4.5.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7e3cecc566df91338c6c67883b89ddd05a17db43">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\httpclient-4.5.1-e4eedb564e08b6bfd036e2662ffc6c0964303a4c.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\cpdetector_1.0.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="14e910b134f4c19b558a889c1c4c13dc528194fb">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\cpdetector_1.0.5-b37bc39db27b531e56de0e01a8f560c46ec55238.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\jsoup-1.8.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3a86e137575e4a45f5a9eec407f8135512e823a2">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\jsoup-1.8.3-a2baf6d96493d0663f3d7b7d2f9b3af6345f20d0.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\baidumapapi_util_v3_6_1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0f0b934deaefab0513860d85cd1f4bcd83fc1003">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\baidumapapi_util_v3_6_1-af88bf7b2d0a432a1b9e2dfea1ae7d86d3d7a436.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-4274ca17907520f12ecacf4d60103ad6b8c5810a.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\baidumapapi_search_v3_6_1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ae35daa343eece79419b1491c64ffe84c3707c50">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\baidumapapi_search_v3_6_1-73db8b6130c6b69f8b5d72c5c44c8d5ae3542741.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\baidumapapi_map_v3_6_1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="23ebff6260f4903de73a88f877f7c32025205c53">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\baidumapapi_map_v3_6_1-088de803eaf85a4b5fbbabb66081ccfef13255cb.jar" />
+    </item>
+    <item
+        jar="D:\桌面备份\HelloUJS-master2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\classes-3368ccc25079b49f5034ce7fe06225f680717473.jar" />
+    </item>
+    <item
+        jar="D:\androidsdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-b3102d1ae1921c453052828e9364ea849c13a50d.jar" />
+    </item>
+
+</items>

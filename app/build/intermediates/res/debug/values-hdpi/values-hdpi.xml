@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/桌面备份/nwuasf/app/src/main/res/values-hdpi/integers.xml -->
+    <eat-comment/>
+    <item name="thumb_height" type="integer">180</item>
+    <item name="thumb_width" type="integer">240</item>
+    <integer name="zoom">19</integer>
+</resources>

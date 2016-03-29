@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">你好西农</string>
+    <string name="media_service">播放器后台服务</string>
+    
+    <string name="main_home">课表</string>
+    <string name="main_pedia">戳我</string>
+    <string name="main_guide">攻略</string>
+    <string name="main_latitude">个人</string>
+    <string name="main_fm">学校</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">登陆</string>
+    <string name="please_input_id">请输入学号</string>
+    <string name="please_input_pwd">请输入密码（默认身份证后六位）</string>
+    <string name="please_input_code">请输入验证码</string>
+    <string name="exit">退出</string>
+    <string name="about">关于</string>
+    <string name="back">返回</string>
+    <string name="ellipsis">&#8230;</string>
+    <string name="campus_map">校园地图</string>
+    <string name="layer">图层</string>
+  
+    <string name="filter_overlay">筛选地图标注</string>
+    <string name="search_hint">搜索学院、宿舍和食堂</string>
+    <string name="result_not_found">对不起，未找到结果…</string>
+    <string name="getting_location">正在获取位置&#8230;</string>
+    <string name="my_location">我的位置</string>
+    <string name="update_location">更新位置</string>
+    <string name="update_marker">更新Marker</string>
+    <string name="loading">载入中</string>
+    <string name="loading_map">正在准备数据，请稍候&#8230;</string>
+    <string name="feedback">意见反馈</string>
+    <string name="share">分享</string>
+    <string name="tip">提示</string>
+    <string name="location_out_of_bound">您的位置不在镇江市范围内</string>
+    
+    <string name="ok">继续</string>
+    <string name="cancel">取消</string>
+    
+    <string name="failed_to_extract_map">解压离线地图失败，将使用在线地图，可能会消耗较多流量</string>
+    <string name="install_map_successfully">成功安装离线地图</string>
+    <string name="failed_to_create_folder">程序初始化失败，请确认SD卡可用</string>
+    
+    <string name="share_body">我在【你好西农】APP中发现了有趣的内容，一起来看看</string>
+    <string name="share_with_friends">与好友分享</string>
+    
+    <string name="jsapi">jsAPI</string>
+    
+    <string name="url_assset_prefix">file:///android_asset/</string>
+    <string name="url_panel_pedia">pedia.htm</string>
+    <string name="url_panel_home">home.htm</string>
+    <string name="url_panel_gossip">gossip.htm</string>
+    <string name="url_panel_guide">guide.htm</string>
+    <string name="url_dialog_about">about.htm</string>
+    
+    <string name="url_register">http://chichou.0ginr.com/app/helloujs/reg.php</string>
+    <string name="url_update">http://chichou.0ginr.com/app/helloujs/update.php</string>
+    <string name="url_remote_feedback">http://chichou.0ginr.com/app/helloujs/feedback.php</string>
+    <string name="url_news">http://www.nwsuaf.edu.cn/</string>
+    <string name="url_weather">http://www.weather.com.cn/data/cityinfo/101110108.html</string>
+    
+    <string name="url_js_weather_callback">javascript:CC.callback.weather(\'%s\')</string>
+    <string name="url_js_news_callback">javascript:CC.callback.news(\'%s\')</string>
+    <string name="url_about">file:///android_asset/about.htm</string>
+    
+    <string name="action_open">OPEN</string>
+    
+    <string name="confirm_quit">确定要退出吗?</string>
+    <string name="sure_to_quit">确认</string>
+    
+    <string name="hide_all_layers">隐藏所有标记</string>
+    <string name="show_all_layers">显示所有标记</string>
+    <string name="show_all_colleges">显示学院</string>
+    <string name="show_dormitories"></string>
+    <string name="show_stores">显示商户</string>
+    <string name="show_bus_routes">显示校内公交路线</string>
+    <string name="show_banks">显示银行</string>
+    <string name="show_dining_halls">显示食堂</string>
+    
+    <string name="article_not_found">指定的文章不存在</string>
+    
+    <string name="share_url">分享网址</string>    
+    <string name="share_picture">分享图片</string>    
+    <string name="search">搜索</string>
+    
+    <string name="radio">电台</string>
+    <string name="next">下一个</string>
+    <string name="pause">暂停</string>
+    <string name="play">播放</string>
+    <string name="wifi_not_opened">检测到您的WIFI没有开启，本功能会消耗大量流量，继续吗？</string>
+    <string name="network_down">网络错误</string>
+    <string name="fm_load_error">节目载入失败，正在为您播放下一个节目…</string>
+    <string name="fm_running">正在播放广播节目:%s</string>
+    <string name="city">镇江</string>
+    <string name="click_tip">请点选地点</string>
+    <string name="empty"></string>
+    
+    <string name="new_version_found">发现新版本，点击更新</string>
+    
+    <string name="search_result">搜索结果</string>
+    <string name="click_hint">请点选地点</string>
+    <string name="click_hint_bubble">点此查看地点详情</string>
+    <string name="jdtv">江大电视</string>
+    <string name="search_article_hint">搜索文章</string>
+    <string name="take_a_photo">拍摄照片</string>
+    <string name="retry">重试</string>
+    <string-array name="weekdays">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+
+</resources>

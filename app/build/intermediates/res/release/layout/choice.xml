@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/wangbadan"
+    android:id="@+id/xuan123">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        >
+
+        <Button
+            android:id="@+id/benke"
+            android:layout_width="144dp"
+            android:layout_height="124dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button7"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="8dp"
+            android:text="本科登陆"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/yanjiusheng"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button8"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="8dp"
+            android:text="研究生登陆"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/wangda">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="195dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button1"
+        android:paddingBottom="8dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp"
+        android:text="掌上图书馆"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button2"
+        android:paddingBottom="8dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp"
+        android:text="3d校园地图"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        >
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="144dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button3"
+        android:paddingBottom="8dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp"
+        android:text="校园新闻"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/buttondao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button4"
+        android:paddingBottom="8dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp"
+        android:text="地图导航"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        >
+    <Button
+        android:id="@+id/buttondiantai"
+        android:layout_width="216dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button5"
+        android:paddingBottom="8dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp"
+        android:text="电台"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/buttonchong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button6"
+        android:paddingBottom="8dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp"
+        android:text="充饭卡网费电费"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    </LinearLayout>
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="掌上图书馆"-->
+        <!--android:id="@+id/button"-->
+        <!--android:textColor="#2e94da"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_weight="0.04" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="3d校园地图"-->
+        <!--android:textColor="#2e94da"-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_weight="0.04" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="校园新闻"-->
+        <!--android:textColor="#2e94da"-->
+        <!--android:id="@+id/button3"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_weight="0.04" />-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="地图导航"-->
+        <!--android:textColor="#2e94da"-->
+        <!--android:id="@+id/buttondao"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_weight="0.04" />-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/buttondiantai"-->
+        <!--android:text="电台"-->
+        <!--android:textColor="#2e94da"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_weight="0.04"/>-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/buttonchong"-->
+        <!--android:text="充饭卡网费电费"-->
+        <!--android:textColor="#2e94da"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_weight="0.04"/>-->
+</LinearLayout><!-- From: file:/C:/Users/Administrator/Desktop/HelloUJS-master2/app/src/main/res/layout/choice.xml -->

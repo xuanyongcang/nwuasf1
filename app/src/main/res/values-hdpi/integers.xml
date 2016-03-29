@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="zoom">19</integer>
+    
+    <item name="thumb_width" type="integer">240</item>
+    <item name="thumb_height" type="integer">180</item>
+</resources>

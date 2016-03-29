@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/img_radio_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/radio"
+        android:scaleType="centerCrop"
+        android:src="@drawable/radio_cover_1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#99000000"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/text_radio_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/radio"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fm_control_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/bottom_control_bg"
+        android:padding="10dp" >
+
+	    <ImageView
+	        android:id="@+id/button_prev"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignTop="@+id/button_toggle_play"
+	        android:contentDescription="@string/next"
+	        android:src="@drawable/radio_prev" />
+
+	    <ImageView
+	        android:id="@+id/button_next"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignTop="@+id/button_toggle_play"
+	        android:contentDescription="@string/next"
+	        android:src="@drawable/radio_next" />
+
+	    <CheckBox
+	        android:id="@+id/button_toggle_play"
+	        style="@style/PlayerToggleButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:checked="true" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/prog_loading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:max="100"
+        android:progress="10" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/Desktop/HelloUJS-master2/app/src/main/res/layout/activity_fm.xml -->
