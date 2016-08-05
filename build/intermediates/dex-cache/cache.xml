@@ -2,95 +2,109 @@
 <items version="2" >
 
     <item
-        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\locSDK_6.13.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\locSDK_6.13-245e9bea54da130a76fd950e18d41e0b62581d4b.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\android-async-http-1.4.4.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4-15b2a62bc05f86bf18ebdc2738d617b298492046.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\baidumapapi_base_v3_6_1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="683a7fe2d903826fc8ff46832b0be142d4b6576d">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\baidumapapi_base_v3_6_1-891e4ed15062bce031106c4af5954a536854ee7f.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\classes-6379ea218d2ff69a3b362ea68daad735c530b28b.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\httpclient-4.5.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7e3cecc566df91338c6c67883b89ddd05a17db43">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\httpclient-4.5.1-e4eedb564e08b6bfd036e2662ffc6c0964303a4c.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\cpdetector_1.0.5.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="14e910b134f4c19b558a889c1c4c13dc528194fb">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\cpdetector_1.0.5-b37bc39db27b531e56de0e01a8f560c46ec55238.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\jsoup-1.8.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3a86e137575e4a45f5a9eec407f8135512e823a2">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\jsoup-1.8.3-a2baf6d96493d0663f3d7b7d2f9b3af6345f20d0.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\baidumapapi_util_v3_6_1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0f0b934deaefab0513860d85cd1f4bcd83fc1003">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\baidumapapi_util_v3_6_1-af88bf7b2d0a432a1b9e2dfea1ae7d86d3d7a436.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-4274ca17907520f12ecacf4d60103ad6b8c5810a.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\baidumapapi_search_v3_6_1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ae35daa343eece79419b1491c64ffe84c3707c50">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\baidumapapi_search_v3_6_1-73db8b6130c6b69f8b5d72c5c44c8d5ae3542741.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\src\main\li\baidumapapi_map_v3_6_1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="23ebff6260f4903de73a88f877f7c32025205c53">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\baidumapapi_map_v3_6_1-088de803eaf85a4b5fbbabb66081ccfef13255cb.jar" />
-    </item>
-    <item
-        jar="D:\桌面备份\HelloUJS-master2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\classes-3368ccc25079b49f5034ce7fe06225f680717473.jar" />
-    </item>
-    <item
         jar="D:\androidsdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="D:\桌面备份\HelloUJS-master2\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-b3102d1ae1921c453052828e9364ea849c13a50d.jar" />
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1_b3102d1ae1921c453052828e9364ea849c13a50d.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\baidumapapi_search_v3_6_1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ae35daa343eece79419b1491c64ffe84c3707c50">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\baidumapapi_search_v3_6_1_2c4be341fe849b63e5d881953fd486f353abb8b0.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\baidumapapi_util_v3_6_1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0f0b934deaefab0513860d85cd1f4bcd83fc1003">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\baidumapapi_util_v3_6_1_447ff8fe8f111c0a161d42c8a5545f15449ce8d1.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\baidumapapi_map_v3_6_1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="23ebff6260f4903de73a88f877f7c32025205c53">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\baidumapapi_map_v3_6_1_c9a7fcd2d7e31a3ada7132d08d9f9856650c7697.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.1.1_2a3e8a399505cca6fde8d47bb3eb49cb7395f717.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\jsoup-1.8.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3a86e137575e4a45f5a9eec407f8135512e823a2">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\jsoup-1.8.3_75aa5df308f73851c4d82382f3c99f5197beb2cb.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\okhttp-3.2.0_7d60145d925de6fb4f453a697e719d324f7787b6.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\okio-1.6.0_caaff921886e16345c8b7c1e317a3b86abf148d4.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4_0349d124246c8324f7e4026d752c86944455e968.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\locSDK_6.13.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\locSDK_6.13_e8adf385e29a31daa0f405488c9371747a71bfb9.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\httpclient-4.5.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7e3cecc566df91338c6c67883b89ddd05a17db43">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\httpclient-4.5.1_d3f406fddcf32548a8c0375f39cf7dcbfcb42dca.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\cpdetector_1.0.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="14e910b134f4c19b558a889c1c4c13dc528194fb">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\cpdetector_1.0.5_49baee7af58fa8199b90536ac8b03c77524459bd.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1_1ff7afe2ce7c43423fc0569af450ca29b2ca93ab.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.1.1_e8ab2b83bf53d0aff43b4c956d5b9277aa485241.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\nwuasf\app\src\main\li\baidumapapi_base_v3_6_1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="683a7fe2d903826fc8ff46832b0be142d4b6576d">
+        <dex dex="D:\androidproject\nwuasf\app\build\intermediates\pre-dexed\debug\baidumapapi_base_v3_6_1_0eedc333d47277fc23148495e62562a89c8f930e.jar" />
     </item>
 
 </items>

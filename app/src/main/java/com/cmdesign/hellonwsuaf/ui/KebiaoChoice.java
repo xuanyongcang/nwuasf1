@@ -18,11 +18,11 @@ public class KebiaoChoice extends Activity {
             public void onClick(View v) {
                 switch (v.getId()) {
                     case R.id.yanjiusheng:
-                        Intent intent1 = new Intent(KebiaoChoice.this,Loginn2Activity.class);
+                        Intent intent1 = new Intent(KebiaoChoice.this,CourseFenshu.class);
                         KebiaoChoice.this.startActivity(intent1);
                         break;
                     case R.id.benke:
-                        Intent intent5 = new Intent(KebiaoChoice.this,RoutePlanDemo.class);
+                        Intent intent5 = new Intent(KebiaoChoice.this,LoginnActivity.class);
                         KebiaoChoice.this.startActivity(intent5);
                         break;
                     case R.id.button:
@@ -42,7 +42,7 @@ public class KebiaoChoice extends Activity {
                         break;
                     case R.id.buttondao:
                         Intent intent4 = new Intent(KebiaoChoice.this,WebView2Activity.class);
-                        intent4.putExtra("extra_inter2", "http://map.baidu.com/");
+                        intent4.putExtra("extra_inter2", "http://map.baidu.com/mobile/webapp/index/index/");
                         KebiaoChoice.this.startActivity(intent4);
                         break;
                     case R.id.buttondiantai:
@@ -51,7 +51,7 @@ public class KebiaoChoice extends Activity {
                         break;
                     case R.id.buttonchong:
                         Intent intent6 = new Intent(KebiaoChoice.this,WebView2Activity.class);
-                        intent6.putExtra("extra_inter2", "http://ecardapp.nwsuaf.edu.cn:8070/Home/Index");
+                        intent6.putExtra("extra_inter2", "http://210.27.80.195:8001/");
                         KebiaoChoice.this.startActivity(intent6);
                         break;
                     default:

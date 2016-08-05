@@ -28,6 +28,7 @@ public class Loginn2Activity extends Activity {
 	private String TAG = Loginn2Activity.class.getName();
 	private ImageView imageView;
 	private SharedPreferences pref2;
+	private SharedPreferences pref23;
 	private SharedPreferences.Editor editor;
 	private CheckBox rememberPass;
 	private Bitmap bitmap;
@@ -50,7 +51,7 @@ public class Loginn2Activity extends Activity {
 
 			switch(tag){
 				case GET_CODE_SUCCESS:
-					imageView.setImageBitmap(bitmap);
+					//imageView.setImageBitmap(bitmap);
 					break;
 				case GET_CODE_ERROR:
 //					Toast.makeText(Loginn2Activity.this, "get code error", Toast.LENGTH_SHORT).show();
@@ -73,6 +74,13 @@ public class Loginn2Activity extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login2);
+//		pref23 = PreferenceManager.getDefaultSharedPreferences(this);
+//		result= pref23.getString("schedule", "");
+//		if(result!="") {
+//			Intent intentja = new Intent();
+//			intentja.setClass(Loginn2Activity.this, SplashActivity.class);
+//			startActivity(intentja);
+//		}
 		init();
 		new GetCodeThread().start();
 	}
@@ -81,17 +89,18 @@ public class Loginn2Activity extends Activity {
 	 * 初始化UI
 	 ****************************/
 	private void init(){
-		NetManager2 = NetManager2.getNetManager();
-		imageView = (ImageView) findViewById(R.id.login_image1);
+		NetManager2 = NetManager2.getNetManager2();
+//		imageView = (ImageView) findViewById(R.id.login_image1);
 		loginBtn = (Button) findViewById(R.id.user_login_btn1);
 		idEdit = (EditText) findViewById(R.id.user_id1);
-		button = (Button) findViewById(R.id.bendikebiao);
 		pwdEdit = (EditText) findViewById(R.id.user_pwd1);
 //		codeEdit = (EditText) findViewById(R.id.user_code1);
 		roundProBar = (ProgressBar) findViewById(R.id.login_progressbar1);
 		roundProBar.setVisibility(View.GONE);
 		pref2 = PreferenceManager.getDefaultSharedPreferences(this);
 		rememberPass = (CheckBox) findViewById(R.id.checkBox1231);
+		rememberPass.setChecked(true);
+
 		boolean isRemember = pref2.getBoolean("remember_password", false);
 		if (isRemember) {
 			String account = pref2.getString("account2", "");
@@ -100,13 +109,6 @@ public class Loginn2Activity extends Activity {
 			pwdEdit.setText(password);
 			rememberPass.setChecked(true);
 		}
-		button.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				Intent intent = new Intent(Loginn2Activity.this, javaclass.class);
-				startActivity(intent);
-			}
-		});
 		loginBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -177,7 +179,7 @@ public class Loginn2Activity extends Activity {
 	 ****************************/
 	private void toShowSchedule(){
 		Intent it = new Intent();
-			it.setClass(this, Schedule.class);
+		it.setClass(this, MainTabActivity.class);
 		startActivity(it);
 	}
 }
@@ -332,7 +334,6 @@ public class Loginn2Activity extends Activity {
 //				msg.what = GET_CODE_ERROR;
 //				e.printStackTrace();
 //			}
-//
 //			handler.sendMessage(msg);
 //		}
 //	}

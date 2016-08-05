@@ -34,7 +34,7 @@
     <string name="share">分享</string>
     <string name="tip">提示</string>
     <string name="location_out_of_bound">您的位置不在镇江市范围内</string>
-    
+    <string name="tip2" >本科生登陆时请确保校园网环境下登陆，验证码不能连续获取两次以上</string>
     <string name="ok">继续</string>
     <string name="cancel">取消</string>
     

@@ -75,18 +75,25 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/FullScreen" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.cmdesign.hellonwsuaf.ui.MainTabActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter>/> -->
+        </activity>
         <activity android:name="com.cmdesign.hellonwsuaf.ui.javaclass" />
-        <activity android:name="com.cmdesign.hellonwsuaf.ui.LoginnActivity" />
+        <activity android:name="com.cmdesign.hellonwsuaf.ui.LoginnActivity" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter>/> -->
+        </activity>
         <activity
             android:name="com.cmdesign.hellonwsuaf.ui.WebPanelActivity"
             android:launchMode="singleTask" />
@@ -99,7 +106,14 @@
         <activity android:name="com.cmdesign.hellonwsuaf.ui.WebView2Activity" />
         <activity android:name="com.cmdesign.hellonwsuaf.ui.choiceActivity" />
         <activity android:name="com.cmdesign.hellonwsuaf.ui.KebiaoChoice" />
-        <activity android:name="com.cmdesign.hellonwsuaf.ui.Loginn2Activity" />
+        <activity android:name="com.cmdesign.hellonwsuaf.ui.Loginn2Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+/>
+        </activity>
         <activity android:name="com.cmdesign.hellonwsuaf.ui.Schedule" />
         <activity android:name="com.cmdesign.hellonwsuaf.ui.Schedulebenke" />
         <activity android:name="com.cmdesign.hellonwsuaf.ui.javaclass2" />
@@ -107,6 +121,7 @@
             android:name="com.cmdesign.hellonwsuaf.ui.RoutePlanDemo"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait" />
+        <activity android:name="com.cmdesign.hellonwsuaf.ui.CourseFenshu" />
 
         <service
             android:name="com.cmdesign.hellonwsuaf.service.PlayerService"

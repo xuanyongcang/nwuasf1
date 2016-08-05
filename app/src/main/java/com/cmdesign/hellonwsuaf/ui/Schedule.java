@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.ProgressBar;
@@ -41,6 +42,7 @@ public class Schedule extends Activity {
     private String getResult;
     private final int GET_SCHEDULE_SUCCESS = 1;
     private final int GET_SCHEDULE_ERROR = 2;
+    private final String GET_SCHEDULE_URL2 = "http://yjspy.nwafu.edu.cn/studentscore/queryScore.do?groupId=&moduleId=25011";
     private final String GET_SCHEDULE_URL = "http://yjspy.nwafu.edu.cn/studentschedule/showStudentSchedule.do?groupId=&moduleId=20101";
     private List<Map<String, String>> scheduleList;
     final Handler handler = new Handler() {
@@ -76,7 +78,7 @@ public class Schedule extends Activity {
         pref2 = PreferenceManager.getDefaultSharedPreferences(this);
         boolean isRemember = pref2.getBoolean("remember_schedule", false);
         editor = pref2.edit();
-        netManager = NetManager2.getNetManager();
+        netManager = NetManager2.getNetManager2();
 //		view = (TextView)findViewById(R.id.schedule_view);
         roundProBar = (ProgressBar) findViewById(R.id.schedule_progressbar1);
         Map<String,String> map = new HashMap<String,String>();
@@ -94,6 +96,7 @@ public class Schedule extends Activity {
                 Message msg = new Message();
                 try{
                     result = netManager.getWebWithPost(url,map);
+                    System.out.println(result);
                     scheduleList = DataManager.getScheduleList(result);
                     msg.what = GET_SCHEDULE_SUCCESS;
                 }catch(Exception e){
@@ -115,9 +118,12 @@ public class Schedule extends Activity {
 			Toast.makeText(Schedule.this, "登陆失败请检查学号密码和验证码是否正确", Toast.LENGTH_SHORT).show();
 			Schedule.this.startActivity(intent);
 		} else {
+            System.out.println(result);
+            Log.e("TAG",result);
             editor.putBoolean("remember_schedule", true);
             editor.putString("schedule", result);
             editor.commit();
+            Log.d("tag",result);
 			Toast.makeText(Schedule.this, "登陆成功", Toast.LENGTH_SHORT).show();
 			Document doc = Jsoup.parse(result, "UTF-8");
 			Elements tables = doc.select("table[id=print]");

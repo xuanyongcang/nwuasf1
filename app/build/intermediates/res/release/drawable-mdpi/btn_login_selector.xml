@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@drawable/login_button_press" android:state_pressed="true"></item>
-    <item android:drawable="@drawable/login_button_normal"></item>
-
-</selector><!-- From: file:/C:/Users/Administrator/Desktop/HelloUJS-master2/app/src/main/res/drawable-mdpi/btn_login_selector.xml -->

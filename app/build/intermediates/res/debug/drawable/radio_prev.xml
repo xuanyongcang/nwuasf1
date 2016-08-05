@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_enabled="false" android:drawable="@drawable/ic_player_prev_disabled" />
-    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/ic_player_prev_highlight" />
-    <item android:state_enabled="true" android:state_pressed="false" android:drawable="@drawable/ic_player_prev" />
-</selector>
-<!-- From: file:/D:/桌面备份/nwuasf/app/src/main/res/drawable/radio_prev.xml -->

@@ -26,7 +26,7 @@ import android.view.KeyEvent;
 
 public class SplashActivity extends Activity {    
 
-	private final int SPLASH_DISPLAY_LENGHT = 1000; //延迟1秒
+	private final int SPLASH_DISPLAY_LENGHT = 0; //延迟1秒
 
 	@Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {

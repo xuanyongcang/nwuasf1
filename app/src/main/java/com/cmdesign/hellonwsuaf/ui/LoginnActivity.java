@@ -72,7 +72,7 @@ public class LoginnActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_login);
+		setContentView(R.layout.login_activity);
 		init();
 		new GetCodeThread().start();
 	}
@@ -82,7 +82,6 @@ public class LoginnActivity extends Activity {
 	 ****************************/
 	private void init(){
 		netManager = NetManager.getNetManager();
-		button12 = (Button) findViewById(R.id.button4);
 		imageView = (ImageView) findViewById(R.id.login_image);
 		loginBtn = (Button) findViewById(R.id.user_login_btn);
 		idEdit = (EditText) findViewById(R.id.user_id);
@@ -100,13 +99,6 @@ public class LoginnActivity extends Activity {
 			pwdEdit.setText(password);
 			rememberPass.setChecked(true);
 		}
-		button12.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				Intent intent = new Intent(LoginnActivity.this, javaclass2.class);
-				startActivity(intent);
-			}
-		});
 		loginBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -144,19 +136,6 @@ public class LoginnActivity extends Activity {
 					result = netManager.getWebWithPost(url,map);
 					msg.what = LOGIN_SUCCESS;
 				}catch(Exception e){
-					msg.what = LOGIN_ERROR;
-				}
-				handler.sendMessage(msg);
-			}
-		}).start();
-		new Thread(new Runnable() {
-			@Override
-			public void run() {
-				Message msg = new Message();
-				try {
-					result = netManager.getWebWithPost(url, map);
-					msg.what = LOGIN_SUCCESS;
-				} catch (Exception e) {
 					msg.what = LOGIN_ERROR;
 				}
 				handler.sendMessage(msg);

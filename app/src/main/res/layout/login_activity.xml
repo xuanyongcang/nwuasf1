@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="28sp"
+            android:padding="32dp"
+            android:textColor="#db4437"
+            android:text="信工校园通"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:hint="学号"
+        android:maxLength="15"
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:maxLength="30"
+        android:hint="密码"
+        android:id="@+id/user_pwd"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:hint="验证码"
+            android:maxLength="15"
+            android:id="@+id/user_code"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:layout_gravity="bottom" />
+        <ImageView
+            android:id="@+id/codeimg"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/login_image"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_weight="0.8" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_lightred_red"
+        android:id="@+id/user_login_btn"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20" />
+    <CheckBox
+        android:id="@+id/checkBox123"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="12dip"
+        android:text="记住密码"
+        android:textColor="#000000"
+        android:checked="false"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/login_help_tv"
+        android:clickable="true"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textSize="14sp"
+        android:textColor="#db4437"
+        android:text="你好西农"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"/>
+
+    <TextView
+        android:gravity="center"
+        style="@style/help_q_tv"
+        android:text="@string/tip2" />
+
+    <ProgressBar
+        android:id="@+id/login_progressbar"
+        style="?android:attr/progressBarStyleLarge"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/round_progressbar"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

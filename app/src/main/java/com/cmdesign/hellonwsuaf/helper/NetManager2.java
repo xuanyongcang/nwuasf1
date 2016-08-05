@@ -30,7 +30,7 @@ public class NetManager2 {
 		 
 	 }
 	 
-	 public static NetManager2 getNetManager()
+	 public static NetManager2 getNetManager2()
 	 {
 		 if(netManager==null){
 			 netManager = new NetManager2();
@@ -50,7 +50,7 @@ public class NetManager2 {
 
 		httpRequest.setHeader("Cookie", "JSESSIONID=" + COOKIE);//加入Cookie
 		try {
-			httpRequest.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
+			httpRequest.setEntity(new UrlEncodedFormEntity(params, "GBK"));
 			HttpResponse httpResponse = client.execute(httpRequest); 			
 			if (httpResponse.getStatusLine().getStatusCode() == 200) { 	//状态码
 				return  readFromStream(httpResponse.getEntity().getContent());
@@ -89,7 +89,4 @@ public class NetManager2 {
 		Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
 		return bitmap;
 	}
-		
-	
-		
 }
